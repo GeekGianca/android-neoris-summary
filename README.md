@@ -1,8 +1,7 @@
 ---
 # Android Neoris Financial Summary
 
-[![Build Status](https://github.com/GeekGianca/android-neoris-financial-summary/actions/workflows/build.yaml/badge.svg)](https://github.com/GeekGianca/android-neoris-financial-summary/actions/workflows/build.yaml)
-
+[![Actions Status](https://github.com/GeekGianca/android-neoris-summary/actions/workflows/build.yml/badge.svg)](https://github.com/GeekGianca/android-neoris-summary/actions)
 Aplicación Android modular construida con MVVM, Jetpack, y buenas prácticas SOLID.
 
 
