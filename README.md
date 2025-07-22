@@ -1,8 +1,9 @@
 ---
-# Android Neoris Financial Summary
+## Android Neoris Financial Summary
 
-[![Actions Status](https://github.com/GeekGianca/android-neoris-summary/actions/workflows/build.yml/badge.svg)](https://github.com/GeekGianca/android-neoris-summary/actions)
-Aplicación Android modular construida con MVVM, Jetpack, y buenas prácticas SOLID.
+[![Android CI/CD](https://github.com/GeekGianca/android-neoris-summary/actions/workflows/build.yaml/badge.svg)](https://github.com/GeekGianca/android-neoris-summary/actions/workflows/build.yaml)
+  
+# Aplicación Android modular construida con MVVM, Jetpack, y buenas prácticas SOLID.
 
 
 ## 📂 Módulos y su Propósito
