@@ -1,0 +1,93 @@
+[versions]
+agp = "8.11.1"
+kotlin = "2.2.0"
+coreKtx = "1.16.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.1"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+gmsPlugin = "4.4.3"
+hilt-android = "2.56"
+hiltExt = "1.2.0"
+devtools-ksp = "2.2.0-2.0.2"
+spotless = "7.1.0"
+room-runtime = "2.7.2"
+googleOssPlugin = "0.10.6"
+preference = "1.2.1"
+hiltCommon = "1.2.0"
+coordinatorlayout = "1.3.0"
+androidDesugarJdkLibs = "2.1.5"
+retrofit = "2.11.0"
+gson = "2.13.1"
+logging-interceptor = "5.1.0"
+recyclerview = "1.4.0"
+lifecycle-extensions = "2.2.0"
+lifecycle-runtime-ktx = "2.9.2"
+lifecycle-viewmodel-ktx = "2.9.2"
+swipe-to-refresh = "1.2.0-alpha01"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+android-desugarJdkLibs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "androidDesugarJdkLibs" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-android" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt-android" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt-android" }
+hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt-android" }
+hilt-ext-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hiltExt" }
+
+androidx-lifecycle-extensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycle-extensions" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle-runtime-ktx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-ktx" }
+
+javax-inject = { module = "javax.inject:javax.inject", version = "1" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+androidx-swipe-to-refresh = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swipe-to-refresh" }
+# Dependencies of the included build-logic
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+hilt-android-gradlePlugin = { group = "com.google.dagger", name = "hilt-android-gradle-plugin", version.ref = "hilt-android" }
+ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "devtools-ksp" }
+google-oss-licenses-plugin = { group = "com.google.android.gms", name = "oss-licenses-plugin", version.ref = "googleOssPlugin" }
+androidx-preference = { group = "androidx.preference", name = "preference", version.ref = "preference" }
+androidx-hilt-common = { group = "androidx.hilt", name = "hilt-common", version.ref = "hiltCommon" }
+diffplug-spotless-gradlePlugin = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
+room-gradlePlugin = { group = "androidx.room", name = "room-gradle-plugin", version.ref = "room-runtime" }
+androidx-coordinatorlayout = { group = "androidx.coordinatorlayout", name = "coordinatorlayout", version.ref = "coordinatorlayout" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "logging-interceptor" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+android-test = { id = "com.android.test", version.ref = "agp" }
+gms = { id = "com.google.gms.google-services", version.ref = "gmsPlugin" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt-android" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "devtools-ksp" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
+room = { id = "androidx.room", version.ref = "room-runtime" }
+
+#Plugins defined by this project
+neoris-android-application = { id = "neoris.android.application", version = "unspecified" }
+neoris-android-application-library = { id = "neoris.android.application.library", version = "unspecified" }
+neoris-android-application-flavors = { id = "neoris.android.application.flavors", version = "unspecified" }
+neoris-android-application-hilt = { id = "neoris.android.application.hilt", version = "unspecified" }
+neoris-android-application-room = { id = "neoris.android.application.room", version = "unspecified" }
+neoris-android-application-test = { id = "neoris.android.application.test", version = "unspecified" }
+neoris-android-jvm-library = { id = "neoris.android.jvm.library", version = "unspecified" }
+
