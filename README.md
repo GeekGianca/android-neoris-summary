@@ -1,15 +1,7 @@
-
-![Build Status](https://github.com/GeekGianca/android-neoris-financial-summary/actions/workflows/build.yml/badge.svg)
-
----
-[![codecov](https://codecov.io/gh/GeekGianca/android-neoris-financial-summary/branch/main/graph/badge.svg)](https://codecov.io/gh/GeekGianca/android-neoris-financial-summary)
-
 ---
 # Android Neoris Financial Summary
 
-![Build](https://github.com/GeekGianca/android-neoris-financial-summary/actions/workflows/main.yml/badge.svg)
-[![codecov](https://codecov.io/gh/GeekGianca/android-neoris-financial-summary/branch/main/graph/badge.svg)](https://codecov.io/gh/GeekGianca/android-neoris-financial-summary)
-[![Release](https://img.shields.io/github/v/release/GeekGianca/android-neoris-financial-summary.svg)](https://github.com/GeekGianca/android-neoris-financial-summary/releases)
+[![Build Status](https://github.com/GeekGianca/android-neoris-financial-summary/actions/workflows/build.yaml/badge.svg)](https://github.com/GeekGianca/android-neoris-financial-summary/actions/workflows/build.yaml)
 
 Aplicación Android modular construida con MVVM, Jetpack, y buenas prácticas SOLID.
 
